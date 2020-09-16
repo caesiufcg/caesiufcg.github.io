@@ -1,0 +1,20 @@
+div.home{
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+div.pages ul{
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 560px;
+    font-size: 14px;
+}
+div.pages ul{
+    list-style: none;
+}
+div.pages li{
+    display: inline;
+    margin: 60px;
+}
