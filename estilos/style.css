@@ -1,20 +1,37 @@
 div.home{
     display: block;
     position: absolute;
-    top: 45px;
-    left: 250px;
+    top: 2px;
+    left: 20px;
 }
+
 div.pages ul{
     display: block;
     position: absolute;
-    top: 35px;
-    left: 560px;
-    font-size: 14px;
+    top: 32px;
+    left: 650px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 div.pages ul{
     list-style: none;
+    
 }
+
 div.pages li{
     display: inline;
-    margin: 60px;
+    margin: 25px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div.imagem{
+    position: fixed;
+    left: 450px;
+    top: 100px;
+}
+
