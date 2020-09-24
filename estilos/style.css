@@ -1,25 +1,25 @@
-div.home{
+.home{
     display: block;
     position: absolute;
     top: 2px;
     left: 20px;
 }
 
-div.pages ul{
+.pages ul{
     display: block;
     position: absolute;
     top: 32px;
-    left: 650px;
+    left: 600px;
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-div.pages ul{
+.pages ul{
     list-style: none;
     
 }
 
-div.pages li{
+.pages li{
     display: inline;
     margin: 25px;
 }
@@ -29,9 +29,120 @@ a{
     color: black;
 }
 
-div.imagem{
-    position: fixed;
+.imagem-home{
+    position: absolute;
+    left: 500px;
+    top: 170px;
+}
+
+.texto-home{
+    position: absolute; 
+    left: 110px; 
+    top: 225px;
+    width: 500px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.imagem-sobre{
+    position: absolute;
+    top: 170px;
+    left: -80px;
+}
+
+.texto-sobre{   
+    position: absolute;
     left: 450px;
-    top: 100px;
+    top: 130px;
+    width: 800px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 10;
+    font-size: 18px;
+    line-height: 25px;    
+}
+
+.botão {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+}
+
+.pessoa-1{
+    position: absolute;
+    top: 200px;
+}
+
+p1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+} 
+
+.pessoa1{
+    position: absolute;
+    top: 310px;
+    left: 200px;
+}
+
+.pessoa-2{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+p2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+.pessoa2{
+    position: absolute;
+    top: 310px;
+    left: 900px;
+}
+
+.imagem-eventos{
+    position: absolute;
+    top: 150px;
+    left: 594px;
+}
+
+.eventos{
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 600px;
+    font-size: 50px;
+}
+
+p3{
+    position: fixed; 
+    top: 560px; 
+    color: rgb(255, 255, 255);
+}
+
+p3 a {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.ic{
+    position: fixed;
+    left: 10px;
+    top: 600px;
+    padding-top: 5px;
+}
+.ic svg{
+    padding-right: 5px;
 }
 
