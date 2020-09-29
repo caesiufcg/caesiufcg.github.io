@@ -1,8 +1,14 @@
+
 .home{
     display: block;
     position: absolute;
     top: 2px;
     left: 20px;
+    transition: 500ms;
+}
+
+.home:hover{
+    border-bottom: 5px solid #A22522;
 }
 
 .pages ul{
@@ -11,17 +17,22 @@
     top: 32px;
     left: 600px;
     font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .pages ul{
     list-style: none;
-    
 }
 
 .pages li{
     display: inline;
-    margin: 25px;
+    margin: 15px;
+    padding: 10px 10px 10px 10px;
+    transition: 500ms;
+}
+
+.pages li:hover {
+    border-bottom: 5px solid #A22522;
 }
 
 a{
@@ -30,17 +41,18 @@ a{
 }
 
 .imagem-home{
-    position: absolute;
-    left: 500px;
-    top: 170px;
+    position: relative;
+    left: 650px;
+    top: 50px;
+    width: 1%;
 }
 
 .texto-home{
-    position: absolute; 
-    left: 110px; 
+    position: relative; 
+    left: 20px; 
     top: 225px;
     width: 500px;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -49,17 +61,18 @@ a{
 }
 
 .imagem-sobre{
-    position: absolute;
+    position: relative;
     top: 170px;
     left: -80px;
+    width: 1%;
 }
 
 .texto-sobre{   
-    position: absolute;
+    position: relative;
     left: 450px;
-    top: 130px;
+    top: -70px;
     width: 800px;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 10;
     font-size: 18px;
@@ -67,64 +80,71 @@ a{
 }
 
 .botão {
-    position: absolute;
-    top: 350px;
-    left: 850px;
+    position: relative;
+    top: -70px;
+    left: 450px;
+    width: 50%;
 }
 
 .pessoa-1{
-    position: absolute;
+    position: relative;
     top: 200px;
 }
 
 p1{
-    font-family: Quicksand;
-    position: absolute;
-    top: 200px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 40px;
     left: 200px;
+    width: 1%;
 } 
 
-.pessoa1{
-    position: absolute;
-    top: 310px;
-    left: 200px;
+.pessoa1-links{
+    position: relative;
+    top: 60px;
+    left: 190px;
+    width: 15%;
 }
 
 .pessoa-2{
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: -95px;
     left: 700px;
+    width: 1%;
 }
 
 p2{
-    font-family: Quicksand;
-    position: absolute;
-    top: 200px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: -255px;
     left: 900px;
+    width: 0%;
 }
 
-.pessoa2{
-    position: absolute;
-    top: 310px;
+.pessoa2-links{
+    position: relative;
+    top: -235px;
     left: 900px;
+    width: 15%;
 }
 
 .imagem-eventos{
-    position: absolute;
-    top: 150px;
-    left: 594px;
+    position: relative;
+    top: 90px;
+    left: -90px;
+    height: 1%;
 }
 
-.eventos{
-    background-color: rgb(224, 224, 224);
-    position: absolute;
-    top: 120px;
-    left: 50px;
-    width: 600px;
-    font-size: 50px;
+.eventos-calendario{
+    position: relative;
+    top: 110px;
+    left: 540px;
+    width: 1%;
+    height: 1%;
 }
 
 p3{
+    font-family: 'Quicksand', sans-serif;
     position: fixed; 
     top: 560px; 
     color: rgb(255, 255, 255);
@@ -142,7 +162,7 @@ p3 a {
     top: 600px;
     padding-top: 5px;
 }
+
 .ic svg{
     padding-right: 5px;
 }
-
