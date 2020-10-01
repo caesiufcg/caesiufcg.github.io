@@ -1,0 +1,66 @@
+
+*{font-family: 'Quicksand', sans-serif;}
+
+.home{
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    transition: 500ms;
+}
+
+.home:hover{
+    border-bottom: 5px solid #A22522;
+}
+
+.pages ul{
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 600px;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pages ul{
+    list-style: none;
+}
+
+.pages li{
+    display: inline;
+    margin: 15px;
+    padding: 10px 10px 10px 10px;
+    transition: 500ms;
+}
+
+.pages li:hover {
+    border-bottom: 5px solid #A22522;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+} 
+
+p3{
+    position: fixed; 
+    top: 560px; 
+    color: rgb(255, 255, 255);
+}
+
+p3 a {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.ic{
+    position: fixed;
+    left: 10px;
+    top: 600px;
+    padding-top: 5px;
+}
+
+.ic svg{
+    padding-right: 5px;
+}
