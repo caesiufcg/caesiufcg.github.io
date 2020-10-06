@@ -1,39 +1,39 @@
 .pessoa-1{
     position: relative;
-    top: 200px;
+    top: 180px;
 }
 
 p1{
     position: relative;
-    top: 40px;
-    left: 200px;
+    top: 0px;
+    left: 240px;
     width: 1%;
 }
 
 .pessoa1-links{
     position: relative;
-    top: 60px;
-    left: 190px;
+    top: -8px;
+    left: 200px;
     width: 15%;
 }
 
 .pessoa-2{
     position: relative;
-    top: -95px;
+    top: -148px;
     left: 700px;
     width: 1%;
 }
 
 p2{
     position: relative;
-    top: -255px;
-    left: 900px;
+    top: -327px;
+    left: 940px;
     width: 0%;
 }
 
 .pessoa2-links{
     position: relative;
-    top: -235px;
+    top: -335px;
     left: 900px;
     width: 15%;
 }

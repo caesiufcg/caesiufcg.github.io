@@ -1,12 +1,30 @@
 
 *{font-family: 'Quicksand', sans-serif;}
 
+/*Nav*/
 .home{
     display: block;
     position: absolute;
-    top: 2px;
-    left: 20px;
+    top: 25px;
+    left: 120px;
     transition: 500ms;
+}
+
+.ImagemCaesi img{
+    height: 120px; 
+    width: 200px;
+    position: absolute;
+    left: -20px;
+    top: -15px;
+}
+
+.home a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
 
 .home:hover{
@@ -19,7 +37,6 @@
     top: 32px;
     left: 600px;
     font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .pages ul{
@@ -42,6 +59,7 @@ a{
     color: black;
 } 
 
+/*footer*/
 p3{
     position: fixed; 
     top: 560px; 
@@ -54,13 +72,13 @@ p3 a {
     padding-top: 10px;
 }
 
-.ic{
+.icones-footer{
     position: fixed;
     left: 10px;
     top: 600px;
     padding-top: 5px;
 }
 
-.ic svg{
+.icones-footer svg{
     padding-right: 5px;
 }
