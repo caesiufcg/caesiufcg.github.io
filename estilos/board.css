@@ -2,47 +2,42 @@
     border-bottom: 5px solid #A22522;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-}
-
 .pessoa-1{
-    position: relative;
-    top: 180px;
+    position: absolute;
+    top: 11.25rem;
 }
 
 p1{
-    position: relative;
-    top: 0px;
-    left: 240px;
+    position: absolute;
+    top: 12rem;
+    left: 15rem;
     width: 1%;
 }
 
 .pessoa1-links{
-    position: relative;
-    top: -8px;
-    left: 200px;
+    position: absolute;
+    top: 18.5rem;
+    left: 12rem;
     width: 15%;
 }
 
 .pessoa-2{
-    position: relative;
-    top: -148px;
+    position: absolute;
+    top: 11.25rem;
     left: 700px;
     width: 1%;
 }
 
 p2{
-    position: relative;
-    top: -327px;
-    left: 940px;
+    position: absolute;
+    top: 12rem;
+    left: 59rem;
     width: 0%;
 }
 
 .pessoa2-links{
-    position: relative;
-    top: -335px;
-    left: 900px;
+    position: absolute;
+    top: 18.5rem;
+    left: 56rem;
     width: 15%;
 }

@@ -4,15 +4,15 @@
 
 .imagem-sobre{
     position: relative;
-    top: 170px;
-    left: -80px;
+    top: 10.5rem;
+    left: -5rem;
     width: 1%;
 }
 
 .texto-sobre{   
     position: relative;
-    left: 450px;
-    top: -70px;
+    left: 28rem;
+    top: -4rem;
     width: 800px;
     font-style: normal;
     font-weight: 10;
@@ -22,7 +22,7 @@
 
 .botão {
     position: relative;
-    top: -70px;
-    left: 450px;
+    top: -4rem;
+    left: 27rem;
     width: 50%;
 }

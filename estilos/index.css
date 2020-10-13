@@ -4,15 +4,15 @@
 
 .imagem-home{
     position: relative;
-    left: 650px;
-    top: 50px;
+    left: 40rem;
+    top: 3rem;
     width: 1%;
 }
 
 .texto-home{
     position: relative; 
-    left: 20px; 
-    top: 225px;
+    left: 2.5rem; 
+    top: 13.5rem;
     width: 500px;
     font-style: normal;
     font-weight: bold;

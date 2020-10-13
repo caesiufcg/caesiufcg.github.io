@@ -4,15 +4,15 @@
 
 .imagem-eventos{
     position: relative;
-    top: 90px;
-    left: -90px;
+    top: 5rem;
+    left: -7rem;
     height: 1%;
 }
 
 .eventos-calendario{
     position: relative;
-    top: 110px;
-    left: 540px;
+    top: 7rem;
+    left: 37rem;
     width: 1%;
     height: 1%;
 }
