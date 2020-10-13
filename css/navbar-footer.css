@@ -2,7 +2,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
     font-family: 'Quicksand', sans-serif;
 }
- 
+
 /*Nav*/
 .home{
     display: block;
@@ -63,21 +63,26 @@ a{
 
 /*footer*/
 p3{
-    position: fixed; 
+    position: absolute; 
     top: 35rem; 
     color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
 }
 
 .icones-footer{
-    position: fixed;
+    position: absolute;
     left: 0.5rem;
     top: 37.4rem;
     padding-top: 0.2rem;
 }
 
 .onda svg {
-    position: fixed; 
+    position: absolute; 
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.icones-footer svg{
+    box-shadow: 0px 0px 1px black;
 }
