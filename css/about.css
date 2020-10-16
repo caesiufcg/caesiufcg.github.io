@@ -1,16 +1,24 @@
+.imagem-sobre{
+    position: absolute;
+    z-index: -200;
+    top: 12rem;
+    left: -3rem;
+}
+
 .imagem-sobre svg{
-    height: 0rem;
-    width: 0rem;
+    height: 20rem;
+    width: 15rem;
+    opacity: 0.2;
 }
 
 .texto-sobre{   
     position: absolute;
     z-index: -100;
     left: 1rem;
-    top: 8rem;
+    top: 14rem;
     width: 20rem;
     font-style: normal;
-    font-size: 18px;
+    font-size: 0.7rem;
     line-height: 25px;    
 }
 
@@ -19,6 +27,11 @@
     top: 30rem;
     left: 1rem;
     width: 50%;
+}
+
+.botão svg{
+    height: 1rem;
+    width: 4rem;
 }
 
 /*Responsividade*/
@@ -44,6 +57,7 @@
     .imagem-sobre svg{
         height: initial;
         width: initial;
+        opacity: initial;
     }
 
     .botão {

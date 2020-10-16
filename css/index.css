@@ -1,25 +1,25 @@
 .imagem-home{
-    position: relative;
-    left: -5rem;
-    top: -0.6rem;
-    width: 1%;
-    height: 1%;
+    position: absolute;
+    z-index: -200;
+    left: -2rem;
+    top: 18rem;
 }
 
 .imagem-home svg{
-    width: 0rem;
-    height: 0rem;
+    width: 20rem;
+    height: 10rem;
+    opacity: 0.5;
 }
 
 .texto-home{
     position: relative;
     z-index: -10; 
-    left: 1rem; 
-    top: 15rem;
-    width: 20rem;
+    left: 3rem; 
+    top: 16rem;
+    width: 15rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.7rem;
     line-height: 1.5;
     text-align: center;
 }
@@ -38,6 +38,7 @@
     .imagem-home svg{
         height: 20rem;
         width: 30rem;
+        opacity: initial;
     }
 
     .texto-home{
