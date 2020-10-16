@@ -130,7 +130,7 @@ a{
         height: 120px; 
         width: 200px;
         position: absolute;
-        left: 65rem;
+        left: 69rem;
         top: -1rem;
     }
     
@@ -140,8 +140,8 @@ a{
         font-size: 1.2rem;
         display: flex;
         position: absolute;
-        top: 0.9rem;
-        left: 50rem;
+        top: 0.6rem;
+        left: 54rem;
         transition: 500ms;
     }
 
@@ -152,8 +152,8 @@ a{
     }
 
     label svg{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     input[type="checkbox"]
@@ -175,7 +175,7 @@ a{
         display: block;
         position: absolute;
         z-index: 100;
-        top: 3rem;
+        top: 2rem;
         left: -30rem;
         font-size: 18px;
     }

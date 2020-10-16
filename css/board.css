@@ -91,6 +91,14 @@ p2{
 
 /*Responsividade*/
 @media (min-width: 760px){
+    h3{
+        position: absolute;
+        z-index: -100;
+        top: 4rem;
+        left: 1rem;
+        font-size: 20px;
+    }
+
     .pessoa-1{
         position: absolute;
         z-index: 0.01;
