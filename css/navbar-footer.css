@@ -30,6 +30,7 @@ input[type="checkbox"]:checked ~ .pages
     transform: translateX(27rem);
     width: 1%;
     height: 0%;
+    transition: 0.45s;
 }
 
 .pages{
