@@ -1,22 +1,54 @@
-.home{
-    border-bottom: 5px solid #A22522;
-}
-
 .imagem-home{
     position: relative;
-    left: 40rem;
-    top: 3rem;
+    left: -5rem;
+    top: -0.6rem;
     width: 1%;
+    height: 1%;
+}
+
+.imagem-home svg{
+    width: 0rem;
+    height: 0rem;
 }
 
 .texto-home{
-    position: relative; 
-    left: 2.5rem; 
-    top: 13.5rem;
-    width: 500px;
+    position: relative;
+    z-index: -10; 
+    left: 1rem; 
+    top: 15rem;
+    width: 20rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
     text-align: center;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    .imagem-home{
+        position: relative;
+        z-index: 0.01;
+        left: 40rem;
+        top: -3rem;
+        width: 1%;
+        height: 1%;
+    }
+
+    .imagem-home svg{
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .texto-home{
+        position: relative; 
+        left: 10rem; 
+        top: 12rem;
+        width: 500px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+    }
 }

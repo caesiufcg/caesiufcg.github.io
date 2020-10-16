@@ -2,87 +2,230 @@
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
     font-family: 'Quicksand', sans-serif;
 }
-
 /*Nav*/
-.home{
-    display: block;
+#menul,label{
     position: absolute;
-    top: 0.9rem;
-    left: 7rem;
-    transition: 500ms;
+    top: 1.2rem;
+    left: 0.6rem;
 }
 
-.ImagemCaesi img{
-    height: 120px; 
-    width: 200px;
-    position: absolute;
-    left: -2rem;
-    top: -1rem;
+label svg{
+    width: 3rem;
+    height: 3rem;
 }
 
-.home a{
-    font-size: 18px;
-    text-decoration: none;
-    color: black;
+input[type="checkbox"]
+{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .pages
+{
+    transform: translateX(27rem);
+    width: 1%;
+}
+
+.pages{
     display: block;
-    text-align: center;
-    padding: 1rem 1rem 1rem 1rem;
-}
-
-.home:hover{
-    border-bottom: 5px solid #A22522;
 }
 
 .pages ul{
     display: block;
     position: absolute;
-    top: 1.7rem;
-    left: 38.5rem;
+    z-index: 1;
+    top: 2.5rem;
+    left: -30rem;
     font-size: 18px;
-}
-
-.pages ul{
+    background-color: #a22422f5; 
     list-style: none;
 }
 
 .pages li{
-    display: inline;
     margin: 0.5rem;
     padding: 1rem 1rem 1rem 1rem;
     transition: 500ms;
 }
 
 .pages li:hover {
-    border-bottom: 5px solid #A22522;
+    border-left:5px solid #A22522;
 }
 
 a{
     text-decoration: none;
     color: black;
-} 
+}
+
+.Caesi img{
+    display: flex;
+    height: 6rem; 
+    width: 9rem;
+    position: absolute;
+    left: 14rem;
+    top: -0.5rem;
+}
+
+.Caesi p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7rem;
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    left: 5rem;
+    transition: 500ms;
+}
 
 /*footer*/
-p3{
+ p3{
+    display: flex;
     position: absolute; 
-    top: 35rem; 
+    top: 40rem; 
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 1px black;
 }
 
-.icones-footer{
-    position: absolute;
-    left: 0.5rem;
-    top: 37.4rem;
-    padding-top: 0.2rem;
-}
-
 .onda svg {
+    display: flex;
     position: absolute; 
     bottom: 0;
     left: 0;
     right: 0;
 }
 
+.icones-footer{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 43rem;
+}
+
+.icones-footer a{
+    padding: 0.2rem 0.4rem 0rem ;
+}
+
+.icones-footer a svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+
 .icones-footer svg{
-    box-shadow: 0px 0px 1px black;
+   box-shadow: 0px 0px 1px black;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    /*Nav*/
+    .Caesi img{
+        display: flex;
+        height: 120px; 
+        width: 200px;
+        position: absolute;
+        left: 65rem;
+        top: -1rem;
+    }
+    
+    .Caesi p{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        position: absolute;
+        top: 0.9rem;
+        left: 50rem;
+        transition: 500ms;
+    }
+
+    #menul,label{
+        position: absolute;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    label svg{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    input[type="checkbox"]
+    {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked ~ .pages
+    {
+        transform: translateX(27rem);
+        width: 10px;
+    }
+
+    .pages{
+        display: flex;
+    }
+
+    .pages ul{
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 3rem;
+        left: -30rem;
+        font-size: 18px;
+    }
+
+    .pages ul{
+        list-style: none;
+    }
+
+    .pages li{
+        margin: 0.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+        transition: 500ms;
+    }
+
+    .pages li:hover {
+        border-left:5px solid rgb(27, 27, 27);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+
+    /*footer*/
+    p3{
+        display: flex;
+        position: absolute; 
+        z-index: 0.01;
+        top: 35rem; 
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 1px black;
+    }
+
+    .onda svg {
+        display: flex;
+        position: absolute; 
+        z-index: 0.01;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icones-footer{
+        display: flex;
+        position: absolute;
+        left: 0.5rem;
+        top: 37.4rem;
+    }
+
+    .icones-footer a{
+        padding: 0.2rem 0.4rem 0rem ;
+    }
+
+    .icones-footer svg{
+        box-shadow: 0px 0px 1px black;
+    }
+
+    .icones-footer a svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }

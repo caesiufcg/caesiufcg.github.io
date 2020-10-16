@@ -1,14 +1,78 @@
-.Diretorias{
-    border-bottom: 5px solid #A22522;
+h3{
+    position: absolute;
+    z-index: -100;
+    top: 4rem;
+    left: 1rem;
 }
 
 .pessoa-1{
     position: absolute;
+    z-index: -100;
+    top: 7.25rem;
+    left: -3rem;
+}
+
+p1{
+    position: absolute;
+    z-index: -100;
+    top: 8rem;
+    left: 12rem;
+    width: 1%;
+}
+
+.pessoa1-links{
+    position: absolute;
+    z-index: -100;
+    top: 14.5rem;
+    left: 11rem;
+    width: 15%;
+}
+
+.pessoa1-links svg{
+    height: 3rem;
+    width: 3rem;
+}
+
+.pessoa-2{
+    position: absolute;
+    z-index: -100;
+    top: 26rem;
+    left: -3rem;
+    width: 1%;
+}
+
+p2{
+    position: absolute;
+    z-index: -100;
+    top: 26.75rem;
+    left: 12rem;
+    width: 0%;
+}
+
+.pessoa2-links{
+    position: absolute;
+    z-index: -100;
+    top: 33.25rem;
+    left: 11rem;
+    width: 15%;
+}
+
+.pessoa2-links svg{
+    height: 3rem;
+    width: 3rem;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+.pessoa-1{
+    position: absolute;
+    z-index: 0.01;
     top: 11.25rem;
 }
 
 p1{
     position: absolute;
+    z-index: 0.01;
     top: 12rem;
     left: 15rem;
     width: 1%;
@@ -16,13 +80,20 @@ p1{
 
 .pessoa1-links{
     position: absolute;
+    z-index: 0.01;
     top: 18.5rem;
     left: 12rem;
     width: 15%;
 }
 
+.pessoa1-links svg{
+    height: 3.8rem;
+    width: 3.8rem;
+}
+
 .pessoa-2{
     position: absolute;
+    z-index: 0.01;
     top: 11.25rem;
     left: 700px;
     width: 1%;
@@ -30,6 +101,7 @@ p1{
 
 p2{
     position: absolute;
+    z-index: 0.01;
     top: 12rem;
     left: 59rem;
     width: 0%;
@@ -37,7 +109,14 @@ p2{
 
 .pessoa2-links{
     position: absolute;
+    z-index: 0.01;
     top: 18.5rem;
     left: 56rem;
     width: 15%;
+}
+
+.pessoa2-links svg{
+    height: 3.5rem;
+    width: 3.8rem;
+}
 }

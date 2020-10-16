@@ -1,27 +1,55 @@
-.Sobre{
-    border-bottom: 5px solid #A22522;
-}
-
-.imagem-sobre{
-    position: relative;
-    top: 10.5rem;
-    left: -5rem;
-    width: 1%;
+.imagem-sobre svg{
+    height: 0rem;
+    width: 0rem;
 }
 
 .texto-sobre{   
-    position: relative;
-    left: 28rem;
-    top: -4rem;
-    width: 800px;
+    position: absolute;
+    z-index: -100;
+    left: 1rem;
+    top: 8rem;
+    width: 20rem;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;    
 }
 
 .botão {
-    position: relative;
-    top: -4rem;
-    left: 27rem;
+    position: absolute;
+    top: 30rem;
+    left: 1rem;
     width: 50%;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    .imagem-sobre{
+        position: absolute;
+        top: 10.5rem;
+        left: -5rem;
+        width: 1%;
+        z-index: -100;
+    }
+
+    .texto-sobre{   
+        position: absolute;
+        left: 28rem;
+        top: 10rem;
+        width: 800px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25px;    
+    }
+
+    .imagem-sobre svg{
+        height: initial;
+        width: initial;
+    }
+
+    .botão {
+        position: absolute;
+        top: 22rem;
+        left: 29rem;
+        width: 50%;
+    }
 }
