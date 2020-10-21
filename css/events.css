@@ -1,0 +1,55 @@
+.imagem-eventos{
+    position: absolute;
+    top: 24rem;
+    height: 1%;
+}
+
+.imagem-eventos svg{
+    height: 15rem;
+    width: 15rem;
+}
+
+.eventos-calendario{
+    position: absolute;
+    z-index: -100;
+    top: 5rem;
+    left: 1rem;
+}
+
+.eventos-calendario iframe{
+    width: 20rem;
+    height: 20rem;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+.Eventos{
+    border-bottom: 5px solid #A22522;
+}
+
+.imagem-eventos{
+    position: relative;
+    z-index: -100;
+    top: 5rem;
+    left: -7rem;
+    height: 1%;
+}
+
+.imagem-eventos svg{
+    height: initial;
+    width: initial;
+}
+
+.eventos-calendario{
+    position: relative;
+    top: 7rem;
+    left: 37rem;
+    width: 1%;
+    height: 1%;
+}
+
+.eventos-calendario iframe{
+    width: 600px;
+    height: 300px;
+}
+}

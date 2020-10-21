@@ -1,0 +1,241 @@
+*{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+    font-family: 'Quicksand', sans-serif;
+}
+/*
+body{
+    background-color: black;
+}
+*/
+/*Nav*/
+#menul,label{
+    position: absolute;
+    top: 1.5rem;
+    left: 0.6rem;
+}
+
+label svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ .pages
+{
+    transform: translateX(27rem);
+    width: 1%;
+    height: 0%;
+    transition: 0.45s;
+}
+
+.pages{
+    display: block;
+}
+
+.pages ul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2.5rem;
+    left: -30rem;
+    font-size: 0.7rem;
+    background-color: #a22422f5; 
+    list-style: none;
+}
+
+.pages li{
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    transition: 500ms;
+}
+
+.pages li:hover {
+    border-left:0.2rem solid rgb(27, 27, 27);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Caesi img{
+    display: flex;
+    height: 4rem; 
+    width: 6rem;
+    position: absolute;
+    left: 16rem;
+    top: 0.2rem;
+}
+
+.Caesi p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7rem;
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    left: 5rem;
+    transition: 500ms;
+}
+
+/*footer*/
+ p3{
+    display: flex;
+    position: absolute; 
+    top: 42rem; 
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
+    font-size: 0.6rem;
+}
+
+.onda svg {
+    display: flex;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icones-footer{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 44rem;
+}
+
+.icones-footer a{
+    padding: 0.2rem 0.4rem 0rem ;
+}
+
+.icones-footer a svg{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+
+.icones-footer svg{
+   box-shadow: 0px 0px 1px black;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    /*Nav*/
+    .Caesi img{
+        display: flex;
+        height: 120px; 
+        width: 200px;
+        position: absolute;
+        left: 69rem;
+        top: -1rem;
+    }
+    
+    .Caesi p{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2rem;
+        display: flex;
+        position: absolute;
+        top: 0.6rem;
+        left: 54rem;
+        transition: 500ms;
+    }
+
+    #menul,label{
+        position: absolute;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    label svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    input[type="checkbox"]
+    {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked ~ .pages
+    {
+        transform: translateX(27rem);
+        width: 10px;
+    }
+
+    .pages{
+        display: flex;
+    }
+
+    .pages ul{
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 2rem;
+        left: -30rem;
+        font-size: 18px;
+    }
+
+    .pages ul{
+        list-style: none;
+    }
+
+    .pages li{
+        margin: 0.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+        transition: 500ms;
+    }
+
+    .pages li:hover {
+        border-left:5px solid rgb(27, 27, 27);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+
+    /*footer*/
+    p3{
+        display: flex;
+        position: absolute; 
+        z-index: 0.01;
+        top: 35rem;
+        font-size: initial; 
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 1px black;
+    }
+
+    .onda svg {
+        display: flex;
+        position: absolute; 
+        z-index: 0.01;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icones-footer{
+        display: flex;
+        position: absolute;
+        left: 0.5rem;
+        top: 37.4rem;
+    }
+
+    .icones-footer a{
+        padding: 0.2rem 0.4rem 0rem ;
+    }
+
+    .icones-footer svg{
+        box-shadow: 0px 0px 1px black;
+    }
+
+    .icones-footer a svg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

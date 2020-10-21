@@ -1,0 +1,55 @@
+.imagem-home{
+    position: absolute;
+    z-index: -200;
+    left: -2rem;
+    top: 18rem;
+}
+
+.imagem-home svg{
+    width: 20rem;
+    height: 10rem;
+    opacity: 0.5;
+}
+
+.texto-home{
+    position: relative;
+    z-index: -10; 
+    left: 3rem; 
+    top: 16rem;
+    width: 15rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    .imagem-home{
+        position: relative;
+        z-index: 0.01;
+        left: 40rem;
+        top: -3rem;
+        width: 1%;
+        height: 1%;
+    }
+
+    .imagem-home svg{
+        height: 20rem;
+        width: 30rem;
+        opacity: initial;
+    }
+
+    .texto-home{
+        position: relative; 
+        left: 10rem; 
+        top: 10rem;
+        width: 500px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}

@@ -1,0 +1,168 @@
+h3{
+    position: absolute;
+    z-index: -100;
+    top: 4rem;
+    left: 1rem;
+    font-size: 0.8rem;
+}
+
+.pessoa-1{
+    position: absolute;
+    z-index: -100;
+    top: 7.25rem;
+}
+
+.pessoa-1 svg{
+    height: 6rem;
+    width: 6rem;
+}
+
+p1{
+    position: absolute;
+    z-index: -100;
+    top: 7rem;
+    left: 12rem;
+    width: 1%;
+    font-size: 0.7rem;
+}
+
+.pessoa1-links{
+    position: absolute;
+    z-index: -100;
+    top: 11.5rem;
+    left: 9rem;
+}
+
+.pessoa1-links svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+.pessoa1-links ul{
+    display: block;
+    list-style: none;
+}
+
+.pessoa1-links li{
+    display: inline;
+}
+
+.pessoa-2{
+    position: absolute;
+    z-index: -100;
+    top: 18rem;
+    width: 1%;
+}
+
+.pessoa-2 svg{
+    height: 6rem;
+    width: 6rem;
+}
+
+p2{
+    position: absolute;
+    z-index: -100;
+    top: 17.75rem;
+    left: 12rem;
+    width: 1%;
+    font-size: 0.7rem;
+}
+
+.pessoa2-links{
+    position: absolute;
+    z-index: -100;
+    top: 22.25rem;
+    left: 9rem;
+}
+
+.pessoa2-links svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+.pessoa2-links ul{
+    display: block;
+    list-style: none;
+}
+
+.pessoa2-links li{
+    display: inline;
+}
+
+/*Responsividade*/
+@media (min-width: 760px){
+    h3{
+        position: absolute;
+        z-index: -100;
+        top: 4rem;
+        left: 1rem;
+        font-size: 20px;
+    }
+
+    .pessoa-1{
+        position: absolute;
+        z-index: 0.01;
+        top: 11.25rem;
+    }
+
+    .pessoa-1 svg {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    p1{
+        position: absolute;
+        z-index: 0.01;
+        top: 10rem;
+        left: 15rem;
+        width: 1%;
+        font-size: 18px;
+    }
+
+    .pessoa1-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 18.5rem;
+        left: 12rem;
+        width: 15%;
+    }
+
+    .pessoa1-links svg{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .pessoa-2{
+        position: absolute;
+        z-index: 0.01;
+        top: 11.25rem;
+        left: 700px;
+    }
+
+    .pessoa-2 svg {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    p2{
+        position: absolute;
+        z-index: 0.01;
+        top: 10rem;
+        left: 59rem;
+        width: 0%;
+        font-size: 18px;
+    }
+
+    .pessoa2-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 18.5rem;
+        left: 56rem;
+        width: 15%;
+    }
+
+    .pessoa2-links svg{
+        height: 3rem;
+        width: 3rem;
+    }
+}
