@@ -1,21 +1,21 @@
 .imagem-home{
     position: absolute;
     z-index: -200;
-    left: -2rem;
-    top: 18rem;
+    left: -1.3rem;
+    top: 14rem;
 }
 
 .imagem-home svg{
     width: 20rem;
-    height: 10rem;
-    opacity: 0.5;
+    height: 15rem;
+    opacity: 1;
 }
 
 .texto-home{
     position: relative;
     z-index: -10; 
     left: 3rem; 
-    top: 16rem;
+    top: 10rem;
     width: 15rem;
     font-style: normal;
     font-weight: bold;

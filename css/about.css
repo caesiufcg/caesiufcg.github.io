@@ -1,7 +1,7 @@
 .imagem-sobre{
     position: absolute;
     z-index: -200;
-    top: 12rem;
+    top: 3rem;
     left: -3rem;
 }
 
@@ -15,7 +15,7 @@
     position: absolute;
     z-index: -100;
     left: 1rem;
-    top: 14rem;
+    top: 8rem;
     width: 20rem;
     font-style: normal;
     font-size: 0.7rem;
@@ -24,7 +24,7 @@
 
 .botão {
     position: absolute;
-    top: 30rem;
+    top: 23rem;
     left: 1rem;
     width: 50%;
 }
