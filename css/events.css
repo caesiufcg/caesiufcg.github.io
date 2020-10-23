@@ -1,24 +1,26 @@
 .imagem-eventos{
     position: absolute;
-    top: 24rem;
+    top: 55%;
     height: 1%;
+    left: 4%;
+    z-index: -1000;
 }
 
 .imagem-eventos svg{
-    height: 15rem;
-    width: 15rem;
+    height: 40vh;
+    width: 60vw;
 }
 
 .eventos-calendario{
     position: absolute;
     z-index: -100;
-    top: 5rem;
-    left: 1rem;
+    top: 12%;
+    left: 4%;
 }
 
 .eventos-calendario iframe{
-    width: 20rem;
-    height: 20rem;
+    width: 90Vw;
+    height: 50Vh;
 }
 
 /*Responsividade*/
@@ -28,28 +30,28 @@
 }
 
 .imagem-eventos{
-    position: relative;
+    position: absolute;
     z-index: -100;
-    top: 5rem;
-    left: -7rem;
+    top: 15%;
+    left: -5%;
     height: 1%;
 }
 
 .imagem-eventos svg{
-    height: initial;
-    width: initial;
+    height: 50vh;
+    width: 45vw;
 }
 
 .eventos-calendario{
-    position: relative;
-    top: 7rem;
-    left: 37rem;
+    position: absolute;
+    top: 20%;
+    left: 45%;
     width: 1%;
     height: 1%;
 }
 
 .eventos-calendario iframe{
-    width: 600px;
-    height: 300px;
+    width: 50vw;
+    height: 50vh;
 }
 }

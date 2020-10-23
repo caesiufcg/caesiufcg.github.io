@@ -11,8 +11,8 @@ body{
 /*Nav*/
 #menul,label{
     position: absolute;
-    top: 1.5rem;
-    left: 0.6rem;
+    top: 3%;
+    left: 4%;
 }
 
 label svg{
@@ -68,8 +68,8 @@ a{
     height: 4rem; 
     width: 6rem;
     position: absolute;
-    left: 16rem;
-    top: 0.2rem;
+    left: 74.5%;
+    top: 0.2%;
 }
 
 .Caesi p{
@@ -78,7 +78,7 @@ a{
     font-size: 0.7rem;
     display: block;
     position: absolute;
-    top: 1.2rem;
+    top: 2%;
     left: 5rem;
     transition: 500ms;
 }
@@ -177,14 +177,13 @@ a{
         width: 10px;
     }
 
-        /*Nav*/
     .pages ul{
         display: block;
-        position: absolute;
-        top: 1.75rem;
-        left: 38.5rem;
         font-size: 18px;
         background-color: initial;
+        position: absolute;
+        top: 1.75rem;
+        left: 53.9%;
     }
 
     .pages ul{

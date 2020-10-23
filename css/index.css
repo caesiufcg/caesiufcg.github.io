@@ -1,8 +1,8 @@
 .imagem-home{
     position: absolute;
     z-index: -200;
-    left: -1.3rem;
-    top: 14rem;
+    left: -5%;
+    top: 30%;
 }
 
 .imagem-home svg{
@@ -12,10 +12,10 @@
 }
 
 .texto-home{
-    position: relative;
+    position: absolute;
     z-index: -10; 
-    left: 3rem; 
-    top: 10rem;
+    left: 15%; 
+    top: 25%;
     width: 15rem;
     font-style: normal;
     font-weight: bold;
@@ -27,10 +27,10 @@
 /*Responsividade*/
 @media (min-width: 760px){
     .imagem-home{
-        position: relative;
+        position: absolute;
         z-index: 0.01;
-        left: 40rem;
-        top: -3rem;
+        left: 50%;
+        top: 20%;
         width: 1%;
         height: 1%;
     }
@@ -42,9 +42,9 @@
     }
 
     .texto-home{
-        position: relative; 
+        position: absolute; 
         left: 10rem; 
-        top: 10rem;
+        top: 30%;
         width: 500px;
         font-style: normal;
         font-weight: bold;

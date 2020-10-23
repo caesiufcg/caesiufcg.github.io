@@ -1,21 +1,21 @@
 .imagem-sobre{
     position: absolute;
     z-index: -200;
-    top: 3rem;
-    left: -3rem;
+    top: 20%;
+    left: -5%;
 }
 
 .imagem-sobre svg{
-    height: 20rem;
-    width: 15rem;
+    height: 25vh;
+    width: 70vw;
     opacity: 0.2;
 }
 
 .texto-sobre{   
     position: absolute;
     z-index: -100;
-    left: 1rem;
-    top: 8rem;
+    left: 4%;
+    top: 15%;
     width: 20rem;
     font-style: normal;
     font-size: 0.7rem;
@@ -24,9 +24,8 @@
 
 .botão {
     position: absolute;
-    top: 23rem;
-    left: 1rem;
-    width: 50%;
+    top: 85%;
+    left: 4%;
 }
 
 .botão svg{
@@ -38,32 +37,38 @@
 @media (min-width: 760px){
     .imagem-sobre{
         position: absolute;
-        top: 10.5rem;
-        left: -5rem;
+        top: 25%;
+        left: 0;
         width: 1%;
         z-index: -100;
     }
 
     .texto-sobre{   
         position: absolute;
-        left: 28rem;
-        top: 10rem;
-        width: 800px;
+        left: 35%;
+        top: 20%;
+        width: 60%;
         font-style: normal;
-        font-size: 18px;
-        line-height: 25px;    
+        font-size: 110%;
+        line-height: 1.5;
+        text-align: left;    
     }
 
     .imagem-sobre svg{
-        height: initial;
-        width: initial;
+        height: 35vh;
+        width: 30vw;
         opacity: initial;
     }
 
     .botão {
         position: absolute;
-        top: 24rem;
-        left: 29rem;
+        top: 65%;
+        left: 38%;
         width: 50%;
+    }
+
+    .botão svg {
+        width: 15%; 
+        height: 25px;
     }
 }

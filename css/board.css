@@ -94,7 +94,7 @@ p2{
     h3{
         position: absolute;
         z-index: -100;
-        top: 4rem;
+        top: 10%;
         left: 1rem;
         font-size: 20px;
     }
@@ -103,66 +103,67 @@ p2{
         position: absolute;
         z-index: 0.01;
         top: 11.25rem;
+        left: -5%;
     }
 
     .pessoa-1 svg {
-        height: 10rem;
-        width: 10rem;
+        height: 25vh;
+        width: 25vw;
     }
 
     p1{
         position: absolute;
         z-index: 0.01;
-        top: 10rem;
-        left: 15rem;
+        top: 25%;
+        left: 20%;
         width: 1%;
-        font-size: 18px;
+        font-size: 120%;
     }
 
     .pessoa1-links{
         position: absolute;
         z-index: 0.01;
-        top: 18.5rem;
-        left: 12rem;
+        top: 45%;
+        left: 17%;
         width: 15%;
     }
 
     .pessoa1-links svg{
-        height: 3rem;
-        width: 3rem;
+        height: 31%;
+        width: 31%;
     }
 
     .pessoa-2{
         position: absolute;
         z-index: 0.01;
         top: 11.25rem;
-        left: 700px;
+        left: 50%;
     }
 
     .pessoa-2 svg {
-        height: 10rem;
-        width: 10rem;
+        height: 25vh;
+        width: 25vw;
     }
 
     p2{
         position: absolute;
         z-index: 0.01;
-        top: 10rem;
-        left: 59rem;
+        top: 25%;
+        left: 75%;
         width: 0%;
-        font-size: 18px;
+        font-size: 120%;
     }
 
     .pessoa2-links{
         position: absolute;
         z-index: 0.01;
-        top: 18.5rem;
-        left: 56rem;
+        top: 45%;
+        left: 72%;
         width: 15%;
     }
 
     .pessoa2-links svg{
-        height: 3rem;
-        width: 3rem;
+        height: 31%;
+        width: 31%;
     }
 }
