@@ -1,3 +1,4 @@
+/*posicionamento e configuraçao do svg da pagina*/
 .imagem-sobre{
     position: absolute;
     z-index: -200;
@@ -11,6 +12,7 @@
     opacity: 0.2;
 }
 
+/*texto da pagina*/
 .texto-sobre{   
     position: absolute;
     z-index: -100;
@@ -22,6 +24,7 @@
     line-height: 25px;    
 }
 
+/*posicionamento e configuraçao botao*/
 .botão {
     position: absolute;
     top: 85%;
@@ -35,6 +38,8 @@
 
 /*Responsividade*/
 @media (min-width: 760px){
+    
+    /*posicionamento e configuraçao do svg da pagina*/
     .imagem-sobre{
         position: absolute;
         top: 25%;
@@ -42,7 +47,14 @@
         width: 1%;
         z-index: -100;
     }
+    
+    .imagem-sobre svg{
+        height: 35vh;
+        width: 30vw;
+        opacity: initial;
+    }
 
+    /*texto da pagina*/
     .texto-sobre{   
         position: absolute;
         left: 35%;
@@ -54,12 +66,7 @@
         text-align: left;    
     }
 
-    .imagem-sobre svg{
-        height: 35vh;
-        width: 30vw;
-        opacity: initial;
-    }
-
+    /*posicionamento e configuraçao botao*/
     .botão {
         position: absolute;
         top: 65%;

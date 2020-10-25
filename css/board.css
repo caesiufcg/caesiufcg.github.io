@@ -1,4 +1,5 @@
-h3{
+/*gestao*/
+h1{
     position: absolute;
     z-index: -100;
     top: 4rem;
@@ -6,6 +7,7 @@ h3{
     font-size: 0.8rem;
 }
 
+/*imagem pessoa 1*/
 .pessoa-1{
     position: absolute;
     z-index: -100;
@@ -17,6 +19,7 @@ h3{
     width: 6rem;
 }
 
+/*texto da pessoa 1*/
 p1{
     position: absolute;
     z-index: -100;
@@ -26,6 +29,7 @@ p1{
     font-size: 0.7rem;
 }
 
+/*posicionamento do links e configuraçao dos icones dap pessoa 1*/
 .pessoa1-links{
     position: absolute;
     z-index: -100;
@@ -47,6 +51,7 @@ p1{
     display: inline;
 }
 
+/*imagem pessoa 2*/
 .pessoa-2{
     position: absolute;
     z-index: -100;
@@ -59,6 +64,7 @@ p1{
     width: 6rem;
 }
 
+/*texto da pessoa 2*/
 p2{
     position: absolute;
     z-index: -100;
@@ -68,6 +74,7 @@ p2{
     font-size: 0.7rem;
 }
 
+/*posicionamento do links e configuraçao dos icones dap pessoa 2*/
 .pessoa2-links{
     position: absolute;
     z-index: -100;
@@ -91,14 +98,16 @@ p2{
 
 /*Responsividade*/
 @media (min-width: 760px){
-    h3{
+    /*gestao*/
+    h1{
         position: absolute;
         z-index: -100;
-        top: 10%;
+        top: 14%;
         left: 1rem;
         font-size: 20px;
     }
 
+    /*imagem pessoa 1*/
     .pessoa-1{
         position: absolute;
         z-index: 0.01;
@@ -111,6 +120,7 @@ p2{
         width: 25vw;
     }
 
+    /*texto da pessoa 1*/
     p1{
         position: absolute;
         z-index: 0.01;
@@ -120,6 +130,7 @@ p2{
         font-size: 120%;
     }
 
+    /*posicionamento do links e configuraçao dos icones dap pessoa 1*/
     .pessoa1-links{
         position: absolute;
         z-index: 0.01;
@@ -133,6 +144,16 @@ p2{
         width: 31%;
     }
 
+    .pessoa1-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    .pessoa1-links li{
+        display: inline;
+    }
+    
+    /*imagem pessoa 2*/
     .pessoa-2{
         position: absolute;
         z-index: 0.01;
@@ -145,6 +166,7 @@ p2{
         width: 25vw;
     }
 
+    /*texto da pessoa 2*/
     p2{
         position: absolute;
         z-index: 0.01;
@@ -154,6 +176,7 @@ p2{
         font-size: 120%;
     }
 
+    /*posicionamento do links e configuraçao dos icones dap pessoa 2*/
     .pessoa2-links{
         position: absolute;
         z-index: 0.01;
