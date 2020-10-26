@@ -23,6 +23,7 @@
 .eventos-calendario iframe{
     width: 90Vw;
     height: 50Vh;
+    border:none;
 }
 
 /*Responsividade*/
@@ -53,5 +54,6 @@
     .eventos-calendario iframe{
         width: 50vw;
         height: 50vh;
+        border: none;
     }
 }

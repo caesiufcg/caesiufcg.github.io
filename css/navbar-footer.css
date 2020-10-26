@@ -91,7 +91,7 @@ a{
 }
 
 /*texto e icones footer*/
- p3{
+.onda p{
     display: flex;
     position: fixed; 
     bottom: 2rem;
@@ -221,7 +221,7 @@ a{
     }
 
     /*texto e icones footer*/
-        p3{
+    .onda p{
         display: flex;
         position: fixed; 
         z-index: 0.01;
