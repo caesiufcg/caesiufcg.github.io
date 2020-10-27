@@ -3,16 +3,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
     font-family: 'Quicksand', sans-serif;
 }
-/*
-body{
-    background-color: black;
-}
-*/
-/*Nav*/
+
+/*checkbox do menu lateral*/
 #menul,label{
     position: absolute;
-    top: 1.5rem;
-    left: 0.6rem;
+    top: 3%;
+    left: 4%;
 }
 
 label svg{
@@ -33,6 +29,7 @@ input[type="checkbox"]:checked ~ .pages
     transition: 0.45s;
 }
 
+/*Nav botões de navegação*/
 .pages{
     display: block;
 }
@@ -63,13 +60,14 @@ a{
     color: black;
 }
 
+/*logo e nome Caesi*/
 .Caesi img{
     display: flex;
     height: 4rem; 
     width: 6rem;
     position: absolute;
-    left: 16rem;
-    top: 0.2rem;
+    left: 74.5%;
+    top: 0.2%;
 }
 
 .Caesi p{
@@ -78,34 +76,35 @@ a{
     font-size: 0.7rem;
     display: block;
     position: absolute;
-    top: 1.2rem;
+    top: 2%;
     left: 5rem;
     transition: 500ms;
 }
 
-/*footer*/
- p3{
-    display: flex;
-    position: absolute; 
-    top: 42rem; 
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 1px black;
-    font-size: 0.6rem;
-}
-
+/*imagem footer*/
 .onda svg {
     display: flex;
-    position: absolute; 
+    position: fixed; 
     bottom: 0;
     left: 0;
     right: 0;
 }
 
+/*texto e icones footer*/
+.onda p{
+    display: flex;
+    position: fixed; 
+    bottom: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px black;
+    font-size: 0.7rem;
+}
+
 .icones-footer{
     display: flex;
-    position: absolute;
+    position: fixed;
     left: 0.5rem;
-    top: 44rem;
+    bottom: 0;
 }
 
 .icones-footer a{
@@ -119,18 +118,84 @@ a{
 
 
 .icones-footer svg{
-   box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px black;
 }
 
-/*Responsividade*/
+/*creditos*/
+.creditos a{
+    font-size: 0.6rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-style: italic;
+}
+
+/*versao Desktop*/
 @media (min-width: 760px){
-    /*Nav*/
+
+/*checkbox do menu lateral*/
+    #menul,label{
+        position: absolute;
+        top: 1.2rem;
+        left: 1.5rem;
+        visibility: hidden;
+    }
+    
+    label svg{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    input[type="checkbox"]
+    {
+        display: none;
+    }
+    
+    input[type="checkbox"]:checked ~ .pages
+    {
+        transform: translateX(27rem);
+        width: 10px;
+    }
+    
+    /*Nav botões de navegação*/
+    .pages ul{
+        display: block;
+        font-size: 18px;
+        background-color: initial;
+        position: absolute;
+        top: 1.75rem;
+        left: 53.9%;
+    }
+    
+    .pages ul{
+        list-style: none;
+    }
+    
+    .pages li{
+        display: inline;
+        margin: 0.1rem;
+        padding: 0.5rem 0.5rem;
+        transition: 500ms;
+    }
+    
+    .pages li:hover {
+        border-left: initial;
+        border-bottom: 5px solid #A22522;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+    
+    /*logo e nome Caesi*/
     .Caesi img{
         display: flex;
         height: 120px; 
         width: 200px;
         position: absolute;
-        left: 69rem;
+        left: -2rem;
         top: -1rem;
     }
     
@@ -141,89 +206,36 @@ a{
         display: flex;
         position: absolute;
         top: 0.6rem;
-        left: 54rem;
+        left: 8rem;
         transition: 500ms;
     }
 
-    #menul,label{
-        position: absolute;
-        top: 1.2rem;
-        left: 1.5rem;
-    }
-
-    label svg{
-        width: 2rem;
-        height: 2rem;
-    }
-
-    input[type="checkbox"]
-    {
-        display: none;
-    }
-
-    input[type="checkbox"]:checked ~ .pages
-    {
-        transform: translateX(27rem);
-        width: 10px;
-    }
-
-    .pages{
-        display: flex;
-    }
-
-    .pages ul{
-        display: block;
-        position: absolute;
-        z-index: 100;
-        top: 2rem;
-        left: -30rem;
-        font-size: 18px;
-    }
-
-    .pages ul{
-        list-style: none;
-    }
-
-    .pages li{
-        margin: 0.5rem;
-        padding: 1rem 1rem 1rem 1rem;
-        transition: 500ms;
-    }
-
-    .pages li:hover {
-        border-left:5px solid rgb(27, 27, 27);
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    } 
-
-    /*footer*/
-    p3{
-        display: flex;
-        position: absolute; 
-        z-index: 0.01;
-        top: 35rem;
-        font-size: initial; 
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 1px black;
-    }
-
+    /*imagem footer*/
     .onda svg {
         display: flex;
-        position: absolute; 
-        z-index: 0.01;
+        position: fixed; 
+        z-index: -200;
         bottom: 0;
         left: 0;
         right: 0;
     }
 
+    /*texto e icones footer*/
+    .onda p{
+        display: flex;
+        position: fixed; 
+        z-index: 0.01;
+        bottom: 2rem;
+        font-size: initial; 
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 1px black;
+    }
+    
     .icones-footer{
         display: flex;
-        position: absolute;
+        position: fixed;
         left: 0.5rem;
-        top: 37.4rem;
+        bottom: 0;
     }
 
     .icones-footer a{
@@ -237,5 +249,15 @@ a{
     .icones-footer a svg{
         width: 1.5rem;
         height: 1.5rem;
+    }
+
+    /*creditos*/
+    .creditos a{
+        font-size: 0.8rem;
+        position: fixed;
+        bottom: 0;
+        right: 0.5rem;
+        color: white;
+        font-style: italic;
     }
 }
