@@ -4,6 +4,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+
 /*checkbox do menu lateral*/
 #menul,label{
     position: absolute;
@@ -41,7 +42,7 @@ input[type="checkbox"]:checked ~ .pages
     top: 2.5rem;
     left: -30rem;
     font-size: 0.7rem;
-    background-color: #a22422f5; 
+    background-color: #a22522f5; 
     list-style: none;
 }
 
@@ -94,41 +95,37 @@ a{
 .onda p{
     display: flex;
     position: fixed; 
-    bottom: 2rem;
+    bottom: 2.5%;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 1px black;
-    font-size: 0.7rem;
+    text-shadow: 2px 2px 1px #000000;
+    font-size: 70%
 }
 
 .icones-footer{
     display: flex;
     position: fixed;
-    left: 0.5rem;
-    bottom: 0;
+    left: 3%;
+    bottom: 0.5%;
 }
 
 .icones-footer a{
-    padding: 0.2rem 0.4rem 0rem ;
+    padding-right: 15px;
 }
 
 .icones-footer a svg{
-    width: 1.3rem;
-    height: 1.3rem;
-}
-
-
-.icones-footer svg{
-    box-shadow: 0px 0px 1px black;
+    width: 110%;
+    height: 110%;
 }
 
 /*creditos*/
 .creditos a{
-    font-size: 0.6rem;
+    font-size: 50%;
     position: fixed;
     bottom: 0;
     right: 0;
     color: white;
     font-style: italic;
+    text-shadow: 2px 2px 1px #000000;
 }
 
 /*versao Desktop*/
@@ -139,7 +136,7 @@ a{
         position: absolute;
         top: 1.2rem;
         left: 1.5rem;
-        visibility: hidden;
+        display: none;
     }
     
     label svg{
@@ -150,21 +147,14 @@ a{
     input[type="checkbox"]
     {
         display: none;
-    }
-    
-    input[type="checkbox"]:checked ~ .pages
-    {
-        transform: translateX(27rem);
-        width: 10px;
-    }
-    
+    } 
     /*Nav botões de navegação*/
     .pages ul{
+        font-size: 110%;
         display: block;
-        font-size: 18px;
         background-color: initial;
         position: absolute;
-        top: 1.75rem;
+        top: 4%;
         left: 53.9%;
     }
     
@@ -174,8 +164,8 @@ a{
     
     .pages li{
         display: inline;
-        margin: 0.1rem;
-        padding: 0.5rem 0.5rem;
+        margin: 0.2px;
+        padding: 5px;
         transition: 500ms;
     }
     
@@ -225,39 +215,41 @@ a{
         display: flex;
         position: fixed; 
         z-index: 0.01;
-        bottom: 2rem;
-        font-size: initial; 
+        bottom: 4%;
+        font-size: 110%; 
         color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 1px black;
+        text-shadow: 2px 2px 1px #000000;
     }
     
     .icones-footer{
         display: flex;
         position: fixed;
         left: 0.5rem;
-        bottom: 0;
+        bottom: 1%;
     }
 
     .icones-footer a{
-        padding: 0.2rem 0.4rem 0rem ;
-    }
-
-    .icones-footer svg{
-        box-shadow: 0px 0px 1px black;
+        padding-right: 30px;
     }
 
     .icones-footer a svg{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.9vmax;
+        height: 1.9vmax;
+    }
+
+    #Dark{
+        display: initial;
     }
 
     /*creditos*/
     .creditos a{
-        font-size: 0.8rem;
+        font-size: 70%;
         position: fixed;
         bottom: 0;
         right: 0.5rem;
         color: white;
         font-style: italic;
+        text-shadow: 2px 2px 1px #000000;
     }
+
 }

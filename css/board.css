@@ -11,12 +11,13 @@ h1{
 .pessoa-1{
     position: absolute;
     z-index: -100;
-    top: 7.25rem;
+    top: 15vmax;
+    left: 5vmax;
 }
 
 .pessoa-1 svg{
-    height: 6rem;
-    width: 6rem;
+    height: 15vmax;
+    width: 15vmax;
 }
 
 /*texto da pessoa 1*/
@@ -38,8 +39,8 @@ p1{
 }
 
 .pessoa1-links svg{
-    height: 2rem;
-    width: 2rem;
+    height: 5vmax;
+    width: 5vmax;
 }
 
 .pessoa1-links ul{
@@ -55,13 +56,13 @@ p1{
 .pessoa-2{
     position: absolute;
     z-index: -100;
-    top: 18rem;
-    width: 1%;
+    top: 40vmax;
+    left: 5vmax;
 }
 
 .pessoa-2 svg{
-    height: 6rem;
-    width: 6rem;
+    height: 15vmax;
+    width: 15vmax;
 }
 
 /*texto da pessoa 2*/
@@ -83,8 +84,8 @@ p2{
 }
 
 .pessoa2-links svg{
-    height: 2rem;
-    width: 2rem;
+    height: 5vmax;
+    width: 5vmax;
 }
 
 .pessoa2-links ul{
@@ -111,13 +112,12 @@ p2{
     .pessoa-1{
         position: absolute;
         z-index: 0.01;
-        top: 11.25rem;
-        left: -5%;
+        top: 30%;
     }
 
     .pessoa-1 svg {
-        height: 25vh;
-        width: 25vw;
+        height: 12vmax;
+        width: 12vmax;
     }
 
     /*texto da pessoa 1*/
@@ -140,8 +140,8 @@ p2{
     }
 
     .pessoa1-links svg{
-        height: 31%;
-        width: 31%;
+        height: 4vmax;
+        width: 3.5vmax;
     }
 
     .pessoa1-links ul{
@@ -157,13 +157,13 @@ p2{
     .pessoa-2{
         position: absolute;
         z-index: 0.01;
-        top: 11.25rem;
-        left: 50%;
+        top: 30%;
+        left: 60%;
     }
 
     .pessoa-2 svg {
-        height: 25vh;
-        width: 25vw;
+        height: 12vmax;
+        width: 12vmax;
     }
 
     /*texto da pessoa 2*/
@@ -186,7 +186,7 @@ p2{
     }
 
     .pessoa2-links svg{
-        height: 31%;
-        width: 31%;
+        height: 4vmax;
+        width: 3.5vmax;
     }
 }

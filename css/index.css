@@ -33,14 +33,14 @@
         position: absolute;
         z-index: 0.01;
         left: 50%;
-        top: 20%;
+        top: 30%;
         width: 1%;
         height: 1%;
     }
 
     .imagem-home svg{
-        height: 20rem;
-        width: 30rem;
+        height: 35vh;
+        width: 40vw;
         opacity: initial;
     }
 
@@ -48,7 +48,7 @@
     .texto-home{
         position: absolute; 
         left: 10rem; 
-        top: 30%;
+        top: 35%;
         width: 500px;
         font-style: normal;
         font-weight: bold;
