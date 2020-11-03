@@ -95,9 +95,8 @@ a{
 .onda p{
     display: flex;
     position: fixed; 
-    bottom: 2.5%;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 1px #000000;
+    bottom: 5%;
+    color: rgb(0, 0, 0);
     font-size: 70%
 }
 
@@ -115,6 +114,7 @@ a{
 .icones-footer a svg{
     width: 110%;
     height: 110%;
+    filter: black;
 }
 
 /*creditos*/
@@ -235,10 +235,6 @@ a{
     .icones-footer a svg{
         width: 1.9vmax;
         height: 1.9vmax;
-    }
-
-    #Dark{
-        display: initial;
     }
 
     /*creditos*/

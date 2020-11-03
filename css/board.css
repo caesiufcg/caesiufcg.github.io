@@ -2,8 +2,8 @@
 h1{
     position: absolute;
     z-index: -100;
-    top: 4rem;
-    left: 1rem;
+    top: 16%;
+    left: 2%;
     font-size: 0.8rem;
 }
 
@@ -11,8 +11,8 @@ h1{
 .pessoa-1{
     position: absolute;
     z-index: -100;
-    top: 15vmax;
-    left: 5vmax;
+    top: 25%;
+    left: 10%;
 }
 
 .pessoa-1 svg{
@@ -24,8 +24,8 @@ h1{
 p1{
     position: absolute;
     z-index: -100;
-    top: 7rem;
-    left: 12rem;
+    top: 22%;
+    left: 52%;
     width: 1%;
     font-size: 0.7rem;
 }
@@ -34,8 +34,8 @@ p1{
 .pessoa1-links{
     position: absolute;
     z-index: -100;
-    top: 11.5rem;
-    left: 9rem;
+    top: 32%;
+    left: 38%;
 }
 
 .pessoa1-links svg{
@@ -56,8 +56,8 @@ p1{
 .pessoa-2{
     position: absolute;
     z-index: -100;
-    top: 40vmax;
-    left: 5vmax;
+    top: 50%;
+    left: 10%;
 }
 
 .pessoa-2 svg{
@@ -69,8 +69,8 @@ p1{
 p2{
     position: absolute;
     z-index: -100;
-    top: 17.75rem;
-    left: 12rem;
+    top: 47%;
+    left: 52%;
     width: 1%;
     font-size: 0.7rem;
 }
@@ -79,8 +79,8 @@ p2{
 .pessoa2-links{
     position: absolute;
     z-index: -100;
-    top: 22.25rem;
-    left: 9rem;
+    top: 58%;
+    left: 38%;
 }
 
 .pessoa2-links svg{
@@ -125,7 +125,7 @@ p2{
         position: absolute;
         z-index: 0.01;
         top: 25%;
-        left: 20%;
+        left: 25%;
         width: 1%;
         font-size: 120%;
     }
@@ -135,7 +135,7 @@ p2{
         position: absolute;
         z-index: 0.01;
         top: 45%;
-        left: 17%;
+        left: 21%;
         width: 15%;
     }
 

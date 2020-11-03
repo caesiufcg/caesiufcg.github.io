@@ -7,8 +7,8 @@
 }
 
 .imagem-home svg{
-    width: 20rem;
-    height: 15rem;
+    width: 40vmax;
+    height: 25vmax;
     opacity: 1;
 }
 
@@ -33,21 +33,21 @@
         position: absolute;
         z-index: 0.01;
         left: 50%;
-        top: 30%;
+        top: 25%;
         width: 1%;
         height: 1%;
     }
 
     .imagem-home svg{
-        height: 35vh;
-        width: 40vw;
+        height: 20vmax;
+        width: 40vmax;
         opacity: initial;
     }
 
     /*texto da pagina*/
     .texto-home{
         position: absolute; 
-        left: 10rem; 
+        left: 10%; 
         top: 35%;
         width: 500px;
         font-style: normal;
