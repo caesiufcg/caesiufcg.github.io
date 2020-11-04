@@ -7,8 +7,8 @@
 }
 
 .imagem-sobre svg{
-    height: 25vh;
-    width: 70vw;
+    height: 35vmax;
+    width: 35vmax;
     opacity: 0.2;
 }
 
@@ -17,11 +17,13 @@
     position: absolute;
     z-index: -100;
     left: 4%;
-    top: 15%;
+    top: 22%;
     width: 20rem;
     font-style: normal;
     font-size: 0.7rem;
-    line-height: 25px;    
+    line-height: 25px;   
+    text-align: justify;  
+    color: var(--color)
 }
 
 /*posicionamento e configuraçao botao*/
@@ -63,7 +65,8 @@
         font-style: normal;
         font-size: 110%;
         line-height: 1.5;
-        text-align: left;    
+        text-align: justify;  
+        color: var(--color)  
     }
 
     /*posicionamento e configuraçao botao*/

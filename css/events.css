@@ -8,8 +8,8 @@
 }
 
 .imagem-eventos svg{
-    height: 40vh;
-    width: 60vw;
+    height: 40vmax;
+    width: 30vmax;
 }
 
 /*posicionamento e configuraçao do iframe da pagina*/
@@ -17,12 +17,11 @@
     position: absolute;
     z-index: -100;
     top: 12%;
-    left: 4%;
 }
 
 .eventos-calendario iframe{
-    width: 90Vw;
-    height: 50Vh;
+    width: 42vmax;
+    height: 50vmax;
     border:none;
 }
 
@@ -52,8 +51,8 @@
     }
 
     .eventos-calendario iframe{
-        width: 50vw;
-        height: 50vh;
+        width: 50vmax;
+        height: 22vmax;
         border: none;
     }
 }

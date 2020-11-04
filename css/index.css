@@ -7,8 +7,8 @@
 }
 
 .imagem-home svg{
-    width: 20rem;
-    height: 15rem;
+    width: 40vmax;
+    height: 25vmax;
     opacity: 1;
 }
 
@@ -24,6 +24,7 @@
     font-size: 0.7rem;
     line-height: 1.5;
     text-align: center;
+    color: var(--color);
 }
 
 /*versão Desktop*/
@@ -33,27 +34,28 @@
         position: absolute;
         z-index: 0.01;
         left: 50%;
-        top: 20%;
+        top: 25%;
         width: 1%;
         height: 1%;
     }
 
     .imagem-home svg{
-        height: 20rem;
-        width: 30rem;
+        height: 20vmax;
+        width: 40vmax;
         opacity: initial;
     }
 
     /*texto da pagina*/
     .texto-home{
         position: absolute; 
-        left: 10rem; 
-        top: 30%;
+        left: 10%; 
+        top: 35%;
         width: 500px;
         font-style: normal;
         font-weight: bold;
         font-size: 30px;
         line-height: 1.5;
         text-align: center;
+        color: var(--color);
     }
 }
