@@ -118,7 +118,7 @@ a{
     display: flex;
     position: fixed;
     left: 3%;
-    bottom: 0.5%;
+    bottom: 0;
 }
 
 .icones-footer a{
@@ -126,8 +126,8 @@ a{
 }
 
 .icones-footer a svg{
-    width: 110%;
-    height: 110%;
+    width: 2.7vmax;
+    height: 2.7vmax;
     filter: black;
 }
 
@@ -250,7 +250,7 @@ a{
         display: flex;
         position: fixed;
         left: 0.5rem;
-        bottom: 1%;
+        bottom: 0;
     }
 
     .icones-footer a{
@@ -258,8 +258,8 @@ a{
     }
 
     .icones-footer a svg{
-        width: 1.9vmax;
-        height: 1.9vmax;
+        width: 2.5vmax;
+        height: 2.5vmax;
     }
 
     /*creditos*/
