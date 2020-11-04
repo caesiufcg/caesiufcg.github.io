@@ -15,7 +15,7 @@ body{
 }
 
 /*checkbox do menu lateral*/
-#menul,label{
+#menul,#menu_lateral{
     position: absolute;
     top: 3%;
     left: 4%;
@@ -91,7 +91,7 @@ a{
     display: block;
     position: absolute;
     top: 2%;
-    left: 5rem;
+    left: 25%;
     transition: 500ms;
     color: var(--color);
 }
@@ -166,23 +166,11 @@ a{
     body{
         background-color: var(--bg);
     }
-/*checkbox do menu lateral*/
-    #menul,label{
-        position: absolute;
-        top: 1.2rem;
-        left: 1.5rem;
+    /*checkbox do menu lateral*/
+    #menul, #menu_lateral{
         display: none;
     }
-    
-    label svg{
-        width: 2rem;
-        height: 2rem;
-    }
-    
-    input[type="checkbox"]
-    {
-        display: none;
-    } 
+
     /*Nav botões de navegação*/
     .pages ul{
         font-size: 110%;
