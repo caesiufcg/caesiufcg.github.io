@@ -24,6 +24,7 @@
     font-size: 0.7rem;
     line-height: 1.5;
     text-align: center;
+    color: var(--color);
 }
 
 /*versão Desktop*/
@@ -55,5 +56,6 @@
         font-size: 30px;
         line-height: 1.5;
         text-align: center;
+        color: var(--color);
     }
 }

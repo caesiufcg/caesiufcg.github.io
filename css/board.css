@@ -5,6 +5,7 @@ h1{
     top: 16%;
     left: 2%;
     font-size: 0.8rem;
+    color: var(--color)
 }
 
 /*imagem pessoa 1*/
@@ -28,6 +29,7 @@ p1{
     left: 52%;
     width: 1%;
     font-size: 0.7rem;
+    color: var(--color)
 }
 
 /*posicionamento do links e configuraçao dos icones dap pessoa 1*/
@@ -41,6 +43,7 @@ p1{
 .pessoa1-links svg{
     height: 5vmax;
     width: 5vmax;
+    fill: rgb(7, 7, 77);
 }
 
 .pessoa1-links ul{
@@ -63,6 +66,7 @@ p1{
 .pessoa-2 svg{
     height: 15vmax;
     width: 15vmax;
+    fill: rgb(7, 7, 77);
 }
 
 /*texto da pessoa 2*/
@@ -73,6 +77,7 @@ p2{
     left: 52%;
     width: 1%;
     font-size: 0.7rem;
+    color: var(--color)
 }
 
 /*posicionamento do links e configuraçao dos icones dap pessoa 2*/
@@ -86,6 +91,7 @@ p2{
 .pessoa2-links svg{
     height: 5vmax;
     width: 5vmax;
+    fill: rgb(7, 7, 77);
 }
 
 .pessoa2-links ul{
@@ -106,6 +112,7 @@ p2{
         top: 14%;
         left: 1rem;
         font-size: 20px;
+        color: var(--color)
     }
 
     /*imagem pessoa 1*/
@@ -128,6 +135,7 @@ p2{
         left: 25%;
         width: 1%;
         font-size: 120%;
+        color: var(--color)
     }
 
     /*posicionamento do links e configuraçao dos icones dap pessoa 1*/
@@ -142,6 +150,7 @@ p2{
     .pessoa1-links svg{
         height: 4vmax;
         width: 3.5vmax;
+        fill: rgb(7, 7, 77);
     }
 
     .pessoa1-links ul{
@@ -174,6 +183,7 @@ p2{
         left: 75%;
         width: 0%;
         font-size: 120%;
+        color: var(--color)
     }
 
     /*posicionamento do links e configuraçao dos icones dap pessoa 2*/
@@ -188,5 +198,15 @@ p2{
     .pessoa2-links svg{
         height: 4vmax;
         width: 3.5vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    .pessoa2-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    .pessoa2-links li{
+        display: inline;
     }
 }

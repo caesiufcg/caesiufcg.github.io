@@ -23,6 +23,7 @@
     font-size: 0.7rem;
     line-height: 25px;   
     text-align: justify;  
+    color: var(--color)
 }
 
 /*posicionamento e configuraçao botao*/
@@ -64,7 +65,8 @@
         font-style: normal;
         font-size: 110%;
         line-height: 1.5;
-        text-align: justify;    
+        text-align: justify;  
+        color: var(--color)  
     }
 
     /*posicionamento e configuraçao botao*/

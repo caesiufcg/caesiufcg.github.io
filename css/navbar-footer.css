@@ -4,6 +4,15 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html{
+    --bg: #ffffff;
+    --color: #000000;
+    --lb: "none";
+}
+
+body{
+    background-color: var(--bg);
+}
 
 /*checkbox do menu lateral*/
 #menul,label{
@@ -58,7 +67,7 @@ input[type="checkbox"]:checked ~ .pages
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--color);
 }
 
 /*logo e nome Caesi*/
@@ -71,6 +80,10 @@ a{
     top: 0.2%;
 }
 
+#logobranca {
+    display: none;
+}
+
 .Caesi p{
     font-weight: bold;
     text-align: center;
@@ -80,6 +93,7 @@ a{
     top: 2%;
     left: 5rem;
     transition: 500ms;
+    color: var(--color);
 }
 
 /*imagem footer*/
@@ -95,8 +109,8 @@ a{
 .onda p{
     display: flex;
     position: fixed; 
-    bottom: 5%;
-    color: rgb(0, 0, 0);
+    bottom: 6%;
+    color: var(--color);
     font-size: 70%
 }
 
@@ -128,9 +142,30 @@ a{
     text-shadow: 2px 2px 1px #000000;
 }
 
+/*botões dos temas*/
+#sun{
+    height: 3vmax;
+    width: 3vmax;
+    position: fixed;
+    bottom: 0.5%;
+    left: 32%;
+    filter: invert(100%);
+}
+
+#moon {
+    height: 3vmax;
+    width: 3vmax;
+    position: fixed;
+    bottom: 0.5%;
+    left: 40%;
+    filter: invert(0%);
+}
+
 /*versao Desktop*/
 @media (min-width: 760px){
-
+    body{
+        background-color: var(--bg);
+    }
 /*checkbox do menu lateral*/
     #menul,label{
         position: absolute;
@@ -176,7 +211,7 @@ a{
 
     a{
         text-decoration: none;
-        color: black;
+        color: var(--color);
     } 
     
     /*logo e nome Caesi*/
@@ -188,6 +223,10 @@ a{
         left: -2rem;
         top: -1rem;
     }
+
+    #logobranca {
+        display: none;
+    }
     
     .Caesi p{
         font-weight: bold;
@@ -198,6 +237,7 @@ a{
         top: 0.6rem;
         left: 8rem;
         transition: 500ms;
+        color: var(--color);
     }
 
     /*imagem footer*/
@@ -248,4 +288,20 @@ a{
         text-shadow: 2px 2px 1px #000000;
     }
 
+    /*botões dos temas*/
+    #sun{
+        height: 4vmax;
+        width: 4vmax;
+        position: fixed;
+        bottom: 1%;
+        left: 32%;
+    }
+
+    #moon {
+        height: 4vmax;
+        width: 4vmax;
+        position: fixed;
+        bottom: 1%;
+        left: 40%;
+    }
 }
