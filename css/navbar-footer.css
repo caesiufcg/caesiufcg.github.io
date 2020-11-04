@@ -41,7 +41,7 @@ input[type="checkbox"]:checked ~ .pages
 
 /*Nav botões de navegação*/
 .pages{
-    display: block;
+    display: inline-block;
 }
 
 .pages ul{
@@ -191,9 +191,6 @@ a{
         position: absolute;
         top: 4%;
         left: 53.9%;
-    }
-    
-    .pages ul{
         list-style: none;
     }
     

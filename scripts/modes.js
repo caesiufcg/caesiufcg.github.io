@@ -6,7 +6,8 @@ function Darkmode() {
     document.getElementById("sun").style.filter = "invert(0%)";
     document.getElementById("moon").style.filter = "invert(100%)";   
 }
-function Ligthmode() {
+
+function Lightmode() {
     document.documentElement.style.setProperty('--bg', '#ffffff');
     document.documentElement.style.setProperty('--color', '#000000');
     document.getElementsByTagName("img")[0].style.display = "initial";
