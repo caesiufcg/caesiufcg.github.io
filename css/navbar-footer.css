@@ -7,7 +7,6 @@
 html{
     --bg: #ffffff;
     --color: #000000;
-    --lb: "none";
 }
 
 body{
@@ -128,7 +127,7 @@ a{
 .icones-footer a svg{
     width: 2.7vmax;
     height: 2.7vmax;
-    filter: black;
+    filter: rgb(0, 0, 0);
 }
 
 /*creditos*/
@@ -137,7 +136,7 @@ a{
     position: fixed;
     bottom: 0;
     right: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     font-style: italic;
     text-shadow: 2px 2px 1px #000000;
 }
@@ -268,7 +267,7 @@ a{
         position: fixed;
         bottom: 0;
         right: 0.5rem;
-        color: white;
+        color: rgb(255, 255, 255);
         font-style: italic;
         text-shadow: 2px 2px 1px #000000;
     }
