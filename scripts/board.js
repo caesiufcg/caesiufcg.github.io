@@ -64,6 +64,10 @@ function page1() {
     esconde2()
     esconde3()
     esconde4()
+    c1.style.fill = "#A22522";
+    c2.style.fill = "rgba(128, 128, 128, 0.692)";
+    c3.style.fill = "rgba(128, 128, 128, 0.692)";
+    c4.style.fill = "rgba(128, 128, 128, 0.692)";
 }
 
 //torna visivel as pessoas da pagina 2 e esconde as outras
@@ -80,6 +84,10 @@ function page2() {
     esconde1()
     esconde3()
     esconde4()
+    c1.style.fill = "rgba(128, 128, 128, 0.692)";
+    c2.style.fill = "#A22522";
+    c3.style.fill = "rgba(128, 128, 128, 0.692)";
+    c4.style.fill = "rgba(128, 128, 128, 0.692)";
 }
 
 //torna visivel as pessoas da pagina 3 e esconde as outras
@@ -96,6 +104,10 @@ function page3() {
     esconde1()
     esconde2()
     esconde4()
+    c1.style.fill = "rgba(128, 128, 128, 0.692)";
+    c2.style.fill = "rgba(128, 128, 128, 0.692)";
+    c3.style.fill = "#A22522";
+    c4.style.fill = "rgba(128, 128, 128, 0.692)";
 }
 
 //torna visivel as pessoas da pagina 4 e esconde as outras
@@ -112,4 +124,8 @@ function page4() {
     esconde1()
     esconde2()
     esconde3()
+    c1.style.fill = "rgba(128, 128, 128, 0.692)";
+    c2.style.fill = "rgba(128, 128, 128, 0.692)";
+    c3.style.fill = "rgba(128, 128, 128, 0.692)";
+    c4.style.fill = "#A22522";
 }

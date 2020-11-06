@@ -11,6 +11,7 @@ h1{
 .botões {
     position: absolute;
     top: 75%;
+    left: 15%;
 }
 
 .botões svg {
@@ -52,8 +53,8 @@ h1{
 }
 
 #pessoa1-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -64,6 +65,7 @@ h1{
 
 #pessoa1-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 2*/
@@ -100,8 +102,8 @@ h1{
 }
 
 #pessoa2-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -112,6 +114,7 @@ h1{
 
 #pessoa2-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 3*/
@@ -148,8 +151,8 @@ h1{
 }
 
 #pessoa3-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -160,6 +163,7 @@ h1{
 
 #pessoa3-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 4*/
@@ -199,8 +203,8 @@ h1{
 }
 
 #pessoa4-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -211,6 +215,7 @@ h1{
 
 #pessoa4-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 5*/
@@ -250,8 +255,8 @@ h1{
 }
 
 #pessoa5-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -262,6 +267,7 @@ h1{
 
 #pessoa5-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 6*/
@@ -301,8 +307,8 @@ h1{
 }
 
 #pessoa6-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -313,6 +319,7 @@ h1{
 
 #pessoa6-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 7*/
@@ -352,8 +359,8 @@ h1{
 }
 
 #pessoa7-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -364,6 +371,7 @@ h1{
 
 #pessoa7-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 8*/
@@ -403,8 +411,8 @@ h1{
 }
 
 #pessoa8-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -415,6 +423,7 @@ h1{
 
 #pessoa8-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 9*/
@@ -454,8 +463,8 @@ h1{
 }
 
 #pessoa9-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -466,6 +475,7 @@ h1{
 
 #pessoa9-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 10*/
@@ -505,8 +515,8 @@ h1{
 }
 
 #pessoa10-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -517,6 +527,7 @@ h1{
 
 #pessoa10-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 1*/
@@ -556,8 +567,8 @@ h1{
 }
 
 #pessoa11-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -568,6 +579,7 @@ h1{
 
 #pessoa11-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 12*/
@@ -607,8 +619,8 @@ h1{
 }
 
 #pessoa12-links svg{
-    height: 4vmax;
-    width: 4vmax;
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
@@ -619,6 +631,7 @@ h1{
 
 #pessoa12-links li{
     display: inline;
+    padding: 7px;
 }
 
 
@@ -636,8 +649,8 @@ h1{
     
     .botões {
         position: absolute;
-        top: 53%;
-        right: 42%;
+        top: 56%;
+        left: 40%;
     }
 
     .botões svg {
@@ -680,8 +693,8 @@ h1{
     }
 
     #pessoa1-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -692,6 +705,7 @@ h1{
     
     #pessoa1-links li{
         display: inline;
+        padding: 7px;
     }
     
     /*imagem pessoa 2*/
@@ -729,8 +743,8 @@ h1{
     }
 
     #pessoa2-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -741,6 +755,7 @@ h1{
     
     #pessoa2-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 3*/
@@ -778,8 +793,8 @@ h1{
     }
 
     #pessoa3-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -790,6 +805,7 @@ h1{
     
     #pessoa3-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 4*/
@@ -819,7 +835,7 @@ h1{
         display: none;
     }
 
-    /*posicionamento do links e configuraçao dos icones da pessoa 4*/
+    /*posicionamen7to do links e configuraçao dos icones da pessoa 4*/
     #pessoa4-links{
         position: absolute;
         z-index: 0.01;
@@ -830,8 +846,8 @@ h1{
     }
 
     #pessoa4-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -842,6 +858,7 @@ h1{
     
     #pessoa4-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 5*/
@@ -882,8 +899,8 @@ h1{
     }
 
     #pessoa5-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -894,6 +911,7 @@ h1{
     
     #pessoa5-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 6*/
@@ -934,8 +952,8 @@ h1{
     }
 
     #pessoa6-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -946,6 +964,7 @@ h1{
     
     #pessoa6-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 7*/
@@ -986,8 +1005,8 @@ h1{
     }
 
     #pessoa7-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -998,6 +1017,7 @@ h1{
     
     #pessoa7-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 8*/
@@ -1038,8 +1058,8 @@ h1{
     }
 
     #pessoa8-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -1050,6 +1070,7 @@ h1{
     
     #pessoa8-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 9*/
@@ -1090,8 +1111,8 @@ h1{
     }
 
     #pessoa9-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -1102,6 +1123,7 @@ h1{
     
     #pessoa9-links li{
         display: inline;
+        padding: 7px;
     }      
 
     /*imagem pessoa 10*/
@@ -1142,8 +1164,8 @@ h1{
     }
 
     #pessoa10-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -1154,6 +1176,7 @@ h1{
     
     #pessoa10-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 11*/
@@ -1194,8 +1217,8 @@ h1{
     }
 
     #pessoa11-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -1206,6 +1229,7 @@ h1{
     
     #pessoa11-links li{
         display: inline;
+        padding: 7px;
     }
 
     /*imagem pessoa 12*/
@@ -1246,8 +1270,8 @@ h1{
     }
 
     #pessoa12-links svg{
-        height: 3vmax;
-        width: 3vmax;
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
@@ -1258,5 +1282,6 @@ h1{
     
     #pessoa12-links li{
         display: inline;
+        padding: 7px;
     }  
 }
