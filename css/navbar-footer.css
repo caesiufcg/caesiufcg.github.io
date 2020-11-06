@@ -258,8 +258,8 @@ a{
     }
 
     .icones-footer a svg{
-        width: 2.5vmax;
-        height: 2.5vmax;
+        width: 2vmax;
+        height: 2vmax;
     }
 
     /*creditos*/
@@ -275,16 +275,16 @@ a{
 
     /*botões dos temas*/
     #sun{
-        height: 4vmax;
-        width: 4vmax;
+        height: 3vmax;
+        width: 3vmax;
         position: fixed;
         bottom: 1%;
         left: 32%;
     }
 
     #moon {
-        height: 4vmax;
-        width: 4vmax;
+        height: 3vmax;
+        width: 3vmax;
         position: fixed;
         bottom: 1%;
         left: 40%;
