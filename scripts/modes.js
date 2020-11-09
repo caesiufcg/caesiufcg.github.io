@@ -1,4 +1,4 @@
-finalizaif (localStorage.tema === 'darkmode'){
+if (localStorage.tema === 'darkmode'){
     Darkmode()
 }
 
