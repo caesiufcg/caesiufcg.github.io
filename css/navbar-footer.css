@@ -83,13 +83,13 @@ a{
     display: none;
 }
 
-.Caesi p{
+.Caesi a{
     font-weight: bold;
     text-align: center;
     font-size: 0.7rem;
     display: block;
     position: absolute;
-    top: 2%;
+    top: 3.2%;
     left: 25%;
     transition: 500ms;
     color: var(--color);
@@ -212,13 +212,13 @@ a{
         display: none;
     }
     
-    .Caesi p{
+    .Caesi a{
         font-weight: bold;
         text-align: center;
         font-size: 1.2rem;
         display: flex;
         position: absolute;
-        top: 0.6rem;
+        top: 4%;
         left: 8rem;
         transition: 500ms;
         color: var(--color);
