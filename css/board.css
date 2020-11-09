@@ -2,106 +2,638 @@
 h1{
     position: absolute;
     z-index: -100;
-    top: 16%;
+    top: 10%;
     left: 2%;
     font-size: 0.8rem;
-    color: var(--color)
+    color: var(--color);
+}
+
+.botões {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+.botões svg {
+    width: 60px;
+    height: 60px;
 }
 
 /*imagem pessoa 1*/
-.pessoa-1{
+#pessoa-1{
     position: absolute;
     z-index: -100;
-    top: 25%;
-    left: 10%;
+    top: 17%;
+    left: 15%;
 }
 
-.pessoa-1 svg{
-    height: 15vmax;
-    width: 15vmax;
+#pessoa-1 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
 }
 
 /*texto da pessoa 1*/
-p1{
+#texto1 {
     position: absolute;
     z-index: -100;
-    top: 22%;
+    top: 15%;
     left: 52%;
     width: 1%;
-    font-size: 0.7rem;
-    color: var(--color)
+    font-size: 0.5rem;
+    color: var(--color);
 }
 
-/*posicionamento do links e configuraçao dos icones dap pessoa 1*/
-.pessoa1-links{
+/*posicionamento do links e configuraçao dos icones da pessoa 1*/
+#pessoa1-links{
     position: absolute;
     z-index: -100;
-    top: 32%;
+    top: 24%;
     left: 38%;
 }
 
-.pessoa1-links svg{
-    height: 5vmax;
-    width: 5vmax;
+#pessoa1-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
-.pessoa1-links ul{
+#pessoa1-links ul{
     display: block;
     list-style: none;
 }
 
-.pessoa1-links li{
+#pessoa1-links li{
     display: inline;
+    padding: 7px;
 }
 
 /*imagem pessoa 2*/
-.pessoa-2{
+#pessoa-2{
     position: absolute;
     z-index: -100;
-    top: 50%;
-    left: 10%;
+    top: 35%;
+    left: 15%;
 }
 
-.pessoa-2 svg{
-    height: 15vmax;
-    width: 15vmax;
-    fill: rgb(7, 7, 77);
+#pessoa-2 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
 }
 
 /*texto da pessoa 2*/
-p2{
+#texto2 {
     position: absolute;
     z-index: -100;
-    top: 47%;
+    top: 33%;
     left: 52%;
-    width: 1%;
-    font-size: 0.7rem;
-    color: var(--color)
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
 }
 
-/*posicionamento do links e configuraçao dos icones dap pessoa 2*/
-.pessoa2-links{
+/*posicionamento do links e configuraçao dos icones da pessoa 2*/
+#pessoa2-links{
     position: absolute;
     z-index: -100;
-    top: 58%;
+    top: 42%;
     left: 38%;
 }
 
-.pessoa2-links svg{
-    height: 5vmax;
-    width: 5vmax;
+#pessoa2-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
     fill: rgb(7, 7, 77);
 }
 
-.pessoa2-links ul{
+#pessoa2-links ul{
     display: block;
     list-style: none;
 }
 
-.pessoa2-links li{
+#pessoa2-links li{
     display: inline;
+    padding: 7px;
 }
+
+/*imagem pessoa 3*/
+#pessoa-3{
+    position: absolute;
+    z-index: -100;
+    top: 53%;
+    left: 15%;
+}
+
+#pessoa-3 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 3*/
+#texto3 {
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 3*/
+#pessoa3-links{
+    position: absolute;
+    z-index: -100;
+    top: 61%;
+    left: 38%;
+}
+
+#pessoa3-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa3-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa3-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 4*/
+#pessoa-4{
+    position: absolute;
+    z-index: -100;
+    top: 17%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-4 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 4*/
+#texto4 {
+    position: absolute;
+    z-index: -100;
+    top: 15%;
+    left: 52%;
+    width: 110px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 4*/
+#pessoa4-links{
+    position: absolute;
+    z-index: -100;
+    top: 24%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa4-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa4-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa4-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 5*/
+#pessoa-5{
+    position: absolute;
+    z-index: -100;
+    top: 35%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-5 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 5*/
+#texto5 {
+    position: absolute;
+    z-index: -100;
+    top: 33%;
+    left: 52%;
+    width: 120px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 5*/
+#pessoa5-links{
+    position: absolute;
+    z-index: -100;
+    top: 42%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa5-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa5-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa5-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 6*/
+#pessoa-6{
+    position: absolute;
+    z-index: -100;
+    top: 53%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-6 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 6*/
+#texto6 {
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 6*/
+#pessoa6-links{
+    position: absolute;
+    z-index: -100;
+    top: 61%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa6-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa6-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa6-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 7*/
+#pessoa-7{
+    position: absolute;
+    z-index: -100;
+    top: 17%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-7 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 7*/
+#texto7 {
+    position: absolute;
+    z-index: -100;
+    top: 15%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 7*/
+#pessoa7-links{
+    position: absolute;
+    z-index: -100;
+    top: 24%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa7-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa7-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa7-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 8*/
+#pessoa-8{
+    position: absolute;
+    z-index: -100;
+    top: 35%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-8 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 8*/
+#texto8 {
+    position: absolute;
+    z-index: -100;
+    top: 33%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 8*/
+#pessoa8-links{
+    position: absolute;
+    z-index: -100;
+    top: 42%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa8-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa8-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa8-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 9*/
+#pessoa-9{
+    position: absolute;
+    z-index: -100;
+    top: 53%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-9 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 9*/
+#texto9 {
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 9*/
+#pessoa9-links{
+    position: absolute;
+    z-index: -100;
+    top: 61%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa9-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa9-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa9-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 10*/
+#pessoa-10{
+    position: absolute;
+    z-index: -100;
+    top: 17%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-10 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 10*/
+#texto10 {
+    position: absolute;
+    z-index: -100;
+    top: 15%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 10*/
+#pessoa10-links{
+    position: absolute;
+    z-index: -100;
+    top: 24%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa10-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa10-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa10-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 1*/
+#pessoa-11{
+    position: absolute;
+    z-index: -100;
+    top: 35%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-11 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 11*/
+#texto11 {
+    position: absolute;
+    z-index: -100;
+    top: 33%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones dap pessoa 11*/
+#pessoa11-links{
+    position: absolute;
+    z-index: -100;
+    top: 42%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa11-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa11-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa11-links li{
+    display: inline;
+    padding: 7px;
+}
+
+/*imagem pessoa 12*/
+#pessoa-12{
+    position: absolute;
+    z-index: -100;
+    top: 53%;
+    left: 15%;
+    display: none;
+}
+
+#pessoa-12 img{
+    height: 10vmax;
+    width: 10vmax;
+    border-radius: 50%;
+}
+
+/*texto da pessoa 12*/
+#texto12 {
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 52%;
+    width: 50px;
+    font-size: 0.5rem;
+    color: var(--color);
+    display: none;
+}
+
+/*posicionamento do links e configuraçao dos icones da pessoa 12*/
+#pessoa12-links{
+    position: absolute;
+    z-index: -100;
+    top: 61%;
+    left: 38%;
+    display: none;
+}
+
+#pessoa12-links svg{
+    height: 3.5vmax;
+    width: 3.5vmax;
+    fill: rgb(7, 7, 77);
+}
+
+#pessoa12-links ul{
+    display: block;
+    list-style: none;
+}
+
+#pessoa12-links li{
+    display: inline;
+    padding: 7px;
+}
+
 
 /*Responsividade*/
 @media (min-width: 760px){
@@ -112,101 +644,644 @@ p2{
         top: 14%;
         left: 1rem;
         font-size: 20px;
-        color: var(--color)
+        color: var(--color);
+    }
+    
+    .botões {
+        position: absolute;
+        top: 56%;
+        left: 40%;
+    }
+
+    .botões svg {
+        width: 5vmax;
+        height: 5vmax;
     }
 
     /*imagem pessoa 1*/
-    .pessoa-1{
+    #pessoa-1{
         position: absolute;
         z-index: 0.01;
-        top: 30%;
+        top: 32%;
+        left: 4%;
     }
 
-    .pessoa-1 svg {
-        height: 12vmax;
-        width: 12vmax;
+    #pessoa-1 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
     }
 
     /*texto da pessoa 1*/
-    p1{
+    #texto1 {
         position: absolute;
         z-index: 0.01;
-        top: 25%;
-        left: 25%;
+        top: 28%;
+        left: 15%;
         width: 1%;
-        font-size: 120%;
-        color: var(--color)
+        font-size: 80%;
+        color: var(--color);
     }
 
     /*posicionamento do links e configuraçao dos icones dap pessoa 1*/
-    .pessoa1-links{
+    #pessoa1-links{
         position: absolute;
         z-index: 0.01;
-        top: 45%;
-        left: 21%;
+        top: 44%;
+        left: 11%;
         width: 15%;
     }
 
-    .pessoa1-links svg{
-        height: 4vmax;
-        width: 3.5vmax;
+    #pessoa1-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
-    .pessoa1-links ul{
+    #pessoa1-links ul{
         display: block;
         list-style: none;
     }
     
-    .pessoa1-links li{
+    #pessoa1-links li{
         display: inline;
+        padding: 7px;
     }
     
     /*imagem pessoa 2*/
-    .pessoa-2{
+    #pessoa-2{
         position: absolute;
         z-index: 0.01;
-        top: 30%;
-        left: 60%;
+        top: 32%;
+        left: 38%;
     }
 
-    .pessoa-2 svg {
-        height: 12vmax;
-        width: 12vmax;
+    #pessoa-2 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
     }
 
     /*texto da pessoa 2*/
-    p2{
+    #texto2 {
         position: absolute;
         z-index: 0.01;
-        top: 25%;
-        left: 75%;
-        width: 0%;
-        font-size: 120%;
-        color: var(--color)
+        top: 28%;
+        left: 50%;
+        font-size: 80%;
+        color: var(--color);
+        width: 75px;
     }
 
     /*posicionamento do links e configuraçao dos icones dap pessoa 2*/
-    .pessoa2-links{
+    #pessoa2-links{
         position: absolute;
         z-index: 0.01;
-        top: 45%;
-        left: 72%;
+        top: 44%;
+        left: 46%;
         width: 15%;
     }
 
-    .pessoa2-links svg{
-        height: 4vmax;
-        width: 3.5vmax;
+    #pessoa2-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
         fill: rgb(7, 7, 77);
     }
 
-    .pessoa2-links ul{
+    #pessoa2-links ul{
         display: block;
         list-style: none;
     }
     
-    .pessoa2-links li{
+    #pessoa2-links li{
         display: inline;
+        padding: 7px;
     }
+
+    /*imagem pessoa 3*/
+    #pessoa-3{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 73%;
+    }
+
+    #pessoa-3 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 3*/
+    #texto3 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 85%;
+        font-size: 80%;
+        color: var(--color);
+        width: 100px;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 3*/
+    #pessoa3-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 81%;
+        width: 15%;
+    }
+
+    #pessoa3-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa3-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa3-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 4*/
+    #pessoa-4{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 4%;
+        display: none;
+    }
+
+    #pessoa-4 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 4*/
+    #texto4 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 15%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamen7to do links e configuraçao dos icones da pessoa 4*/
+    #pessoa4-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 11%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa4-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa4-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa4-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 5*/
+    #pessoa-5{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 38%;
+        display: none;
+    }
+
+    #pessoa-5 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 5*/
+    #texto5 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 50%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 5*/
+    #pessoa5-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 46%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa5-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa5-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa5-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 6*/
+    #pessoa-6{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 73%;
+        display: none;
+    }
+
+    #pessoa-6 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 6*/
+    #texto6 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 85%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 6*/
+    #pessoa6-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 81%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa6-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa6-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa6-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 7*/
+    #pessoa-7{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 4%;
+        display: none;
+    }
+
+    #pessoa-7 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 7*/
+    #texto7 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 15%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 7*/
+    #pessoa7-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 11%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa7-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa7-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa7-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 8*/
+    #pessoa-8{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 38%;
+        display: none;
+    }
+
+    #pessoa-8 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 8*/
+    #texto8 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 50%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 8*/
+    #pessoa8-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 46%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa8-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa8-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa8-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 9*/
+    #pessoa-9{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 73%;
+        display: none;
+    }
+
+    #pessoa-9 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 9*/
+    #texto9 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 85%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 9*/
+    #pessoa9-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 81%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa9-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa9-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa9-links li{
+        display: inline;
+        padding: 7px;
+    }      
+
+    /*imagem pessoa 10*/
+    #pessoa-10{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 4%;
+        display: none;
+    }
+
+    #pessoa-10 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 10*/
+    #texto10 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 15%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 10*/
+    #pessoa10-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 11%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa10-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa10-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa10-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 11*/
+    #pessoa-11{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 38%;
+        display: none;
+    }
+
+    #pessoa-11 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 11*/
+    #texto11 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 50%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 11*/
+    #pessoa11-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 46%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa11-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa11-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa11-links li{
+        display: inline;
+        padding: 7px;
+    }
+
+    /*imagem pessoa 12*/
+    #pessoa-12{
+        position: absolute;
+        z-index: 0.01;
+        top: 32%;
+        left: 73%;
+        display: none;
+    }
+
+    #pessoa-12 img {
+        height: 9vmax;
+        width: 9vmax;
+        border-radius: 50%;
+    }
+
+    /*texto da pessoa 12*/
+    #texto12 {
+        position: absolute;
+        z-index: 0.01;
+        top: 28%;
+        left: 85%;
+        font-size: 80%;
+        color: var(--color);
+        width: 150px;
+        display: none;
+    }
+
+    /*posicionamento do links e configuraçao dos icones da pessoa 12*/
+    #pessoa12-links{
+        position: absolute;
+        z-index: 0.01;
+        top: 44%;
+        left: 81%;
+        width: 15%;
+        display: none;
+    }
+
+    #pessoa12-links svg{
+        height: 2.2vmax;
+        width: 2.2vmax;
+        fill: rgb(7, 7, 77);
+    }
+
+    #pessoa12-links ul{
+        display: block;
+        list-style: none;
+    }
+    
+    #pessoa12-links li{
+        display: inline;
+        padding: 7px;
+    }  
 }

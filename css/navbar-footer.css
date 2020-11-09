@@ -7,7 +7,6 @@
 html{
     --bg: #ffffff;
     --color: #000000;
-    --lb: "none";
 }
 
 body{
@@ -48,7 +47,7 @@ input[type="checkbox"]:checked ~ .pages
     display: block;
     position: absolute;
     z-index: 1;
-    top: 2.5rem;
+    top: 2rem;
     left: -30rem;
     font-size: 0.7rem;
     background-color: #a22522f5; 
@@ -128,7 +127,7 @@ a{
 .icones-footer a svg{
     width: 2.7vmax;
     height: 2.7vmax;
-    filter: black;
+    filter: rgb(0, 0, 0);
 }
 
 /*creditos*/
@@ -137,7 +136,7 @@ a{
     position: fixed;
     bottom: 0;
     right: 0;
-    color: white;
+    color: rgb(255, 255, 255);
     font-style: italic;
     text-shadow: 2px 2px 1px #000000;
 }
@@ -258,8 +257,8 @@ a{
     }
 
     .icones-footer a svg{
-        width: 2.5vmax;
-        height: 2.5vmax;
+        width: 2vmax;
+        height: 2vmax;
     }
 
     /*creditos*/
@@ -268,23 +267,23 @@ a{
         position: fixed;
         bottom: 0;
         right: 0.5rem;
-        color: white;
+        color: rgb(255, 255, 255);
         font-style: italic;
         text-shadow: 2px 2px 1px #000000;
     }
 
     /*botões dos temas*/
     #sun{
-        height: 4vmax;
-        width: 4vmax;
+        height: 3vmax;
+        width: 3vmax;
         position: fixed;
         bottom: 1%;
         left: 32%;
     }
 
     #moon {
-        height: 4vmax;
-        width: 4vmax;
+        height: 3vmax;
+        width: 3vmax;
         position: fixed;
         bottom: 1%;
         left: 40%;
